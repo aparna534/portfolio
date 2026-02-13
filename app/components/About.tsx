@@ -54,7 +54,7 @@ export default function About() {
         </div>
 
         {/* RIGHT — IMAGE (PUSHED RIGHT) */}
-        <div className="flex justify-end -mt-6">
+        <div className="flex justify-end -mt-12">
 
           <div className="rounded-2xl overflow-hidden shadow-lg">
             <Image
