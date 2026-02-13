@@ -8,7 +8,8 @@ export default function About() {
       id="about"
       className="min-h-screen w-full flex items-center justify-center pt-20 pb-12 font-sans"
     >
-      <div className="w-full max-w-7xl px-8 grid grid-cols-1 md:grid-cols-[1.3fr_0.7fr] gap-8 items-start">
+      <div className="w-full max-w-7xl px-8 grid grid-cols-1 md:grid-cols-[1.3fr_0.7fr] gap-8 items-center">
+
 
         {/* LEFT — TEXT */}
         <div>
