@@ -12,8 +12,8 @@ export default function Contact() {
         </h1>
 
         <p className="text-center text-gray-700 mb-16 max-w-2xl mx-auto">
-          I’m always open to conversations around product, analytics, and strategy.  
-          Whether it’s an opportunity, a collaboration, or just a quick hello, feel free to reach out.
+          I’m always open to conversations about ideas, impact, and growth.
+Whether it’s an opportunity, a collaboration, or simply connecting, I’d love to hear from you.
         </p>
 
         {/* CONTACT CARDS */}
