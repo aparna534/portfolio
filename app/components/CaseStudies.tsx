@@ -58,10 +58,10 @@ export default function CaseStudies() {
               />
 
               <Section title="Context">
-                A Series-A SaaS company providing workflow automation tools for
+                A Series A SaaS company providing workflow automation tools for
                 distributed operations teams (support, logistics coordination,
                 internal ops). Despite steady inbound growth, the company struggled
-                to convert new accounts into sustained usage and long-term contracts.
+                to convert new accounts into sustained usage and long term contracts.
               </Section>
 
               <Section title="Business Problem">
@@ -85,7 +85,7 @@ export default function CaseStudies() {
                 I challenged this assumption by reframing the problem as:
                 <br />
                 <span className="italic block mt-2">
-                  “This is not a feature-gap issue. This is a value-realization
+                  “This is not a feature gap issue. This is a value realization
                   issue. Users are not failing because the product lacks capability
                   — they are failing because they don’t reach meaningful outcomes
                   early enough.”
@@ -131,7 +131,7 @@ export default function CaseStudies() {
 
               <Section title="Solution">
                 <p className="font-semibold mb-2">
-                  Outcome-led activation framework
+                  Outcome led activation framework
                 </p>
                 <ul className="list-disc pl-5 space-y-2">
                   <li>
@@ -152,7 +152,7 @@ export default function CaseStudies() {
                   <li>
                     PRD: Guided Activation Framework
                     <ul className="list-disc pl-6 mt-2">
-                      <li>Objective: reduce time-to-first-workflow by 40%</li>
+                      <li>Objective: reduce time to first-workflow by 40%</li>
                       <li>
                         Defined success metrics and activation guardrails
                       </li>
@@ -163,16 +163,7 @@ export default function CaseStudies() {
                 </ul>
               </Section>
 
-              <Section title="Why this reads as senior">
-                <ul className="list-disc pl-5 space-y-2">
-                  <li>Product-led growth thinking</li>
-                  <li>Comfort challenging dominant assumptions</li>
-                  <li>
-                    Understanding of adoption economics, not just UX polish
-                  </li>
-                </ul>
-              </Section>
-
+            
               <ImageRowEqual
                 a="/case-studies/case1-a.png"
                 b="/case-studies/case1-b.png"
@@ -187,11 +178,11 @@ export default function CaseStudies() {
               <CaseHeader
                 number="2"
                 tag="MID-SIZED COMPANY"
-                title="Consumer Fintech Platform — From Insight to Action"
+                title="Consumer Fintech Platform: From Insight to Action"
               />
 
               <Section title="Context">
-                A fast-growing personal finance platform offering spend analysis,
+                A fast growing personal finance platform offering spend analysis,
                 subscription tracking, and budgeting tools. While user acquisition
                 was strong, the product struggled to influence real financial
                 behavior.
@@ -219,7 +210,7 @@ export default function CaseStudies() {
                   “We do not have an information problem. We have a decision
                   friction problem.”
                 </span>
-                Users were seeing insights — but lacked:
+                Users were seeing insights but lacked:
                 <ul className="list-disc pl-5 mt-2 space-y-1">
                   <li>confidence</li>
                   <li>clarity</li>
@@ -290,7 +281,7 @@ export default function CaseStudies() {
                   <li>
                     Measurement framework
                     <ul className="list-disc pl-6 mt-2">
-                      <li>Insight-to-action conversion</li>
+                      <li>Insight to action conversion</li>
                       <li>
                         Retention uplift among engaged cohorts
                       </li>
@@ -299,13 +290,7 @@ export default function CaseStudies() {
                 </ul>
               </Section>
 
-              <Section title="Why this reads as senior">
-                <ul className="list-disc pl-5 space-y-2">
-                  <li>Behavioral economics awareness</li>
-                  <li>Product + risk + compliance thinking</li>
-                  <li>Monetization-aligned product strategy</li>
-                </ul>
-              </Section>
+              
 
               <ImageRowTallSecond
                 a="/case-studies/case2-a.png"
@@ -417,15 +402,7 @@ export default function CaseStudies() {
                 </ul>
               </Section>
 
-              <Section title="Why this reads as senior">
-                <ul className="list-disc pl-5 space-y-2">
-                  <li>Enterprise product maturity</li>
-                  <li>Risk-aware system design</li>
-                  <li>
-                    Understanding of organizational behavior, not just UX
-                  </li>
-                </ul>
-              </Section>
+              
 
               <ImageRowTallSecond
                 a="/case-studies/case3-a.png"

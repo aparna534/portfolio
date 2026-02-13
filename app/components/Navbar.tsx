@@ -30,8 +30,11 @@ export default function Navbar() {
           Contact
         </a>
 
+        {/* RESUME BUTTON */}
         <a
-          href="/resume.pdf"
+          href="/resume.pdf"          // 👈 file must be in /public
+          target="_blank"            // 👈 opens in new tab
+          rel="noopener noreferrer"  // 👈 security best practice
           className="
             ml-2 px-4 py-1.5 rounded-full
             border border-black
