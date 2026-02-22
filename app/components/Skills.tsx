@@ -18,24 +18,26 @@ export default function Skills() {
 
         {/* ================= TECHNICAL SKILLS ================= */}
         <h2 className="text-2xl font-bold mb-6 text-gray-900">
-          Technical Skills
+          Data & Analytical Capabilities
         </h2>
 
-        <SkillBar title="Applied AI & Intelligent Systems" value={85} />
-        <SkillBar title="Data Analysis & Product Analytics" value={70} />
-        <SkillBar title="Prototyping & UX Tools" value={70} />
-        <SkillBar title="Workflow Automation & Tools" value={70} />
+        <SkillBar title="Data Analysis & Insight Generation" value={85} />
+        <SkillBar title="SQL & Structured Querying" value={80} />
+        <SkillBar title="Applied AI & Predictive Modeling" value={80} />
+        <SkillBar title="Dashboarding & Metrics Reporting" value={75} />
+        <SkillBar title="Experimentation & KPI Design" value={75} />
+
 
         {/* ================= PRODUCT & BUSINESS SKILLS ================= */}
         <h2 className="text-2xl font-bold mt-16 mb-6 text-gray-900">
-          Product & Business Skills
+          Product & Business Thinking
         </h2>
 
-        <SkillBar title="Problem Framing & Structured Thinking" value={75} />
-        <SkillBar title="Requirements Gathering & PRD Writing" value={70} />
-        <SkillBar title="User Research & Insight Synthesis" value={70} />
-        <SkillBar title="Stakeholder Management" value={72} />
-        <SkillBar title="Product Strategy & Prioritization" value={70} />
+        <SkillBar title="Problem Framing & Structured Thinking" value={85} />
+        <SkillBar title="Product Strategy & Prioritization" value={75} />
+        <SkillBar title="Requirements Definition & PRD Writing" value={70} />
+        <SkillBar title="User & Market Insight Synthesis" value={72} />
+        <SkillBar title="Stakeholder Communication & Alignment" value={75} />
 
         {/* developing skill */}
         <SkillBar

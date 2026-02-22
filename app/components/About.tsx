@@ -29,25 +29,13 @@ export default function About() {
           <div className="max-w-3xl">
 
             <p className="text-gray-800 text-base md:text-lg leading-relaxed mb-5">
-              I’m someone who pays close attention to how things really work not how
-              they’re supposed to work on paper but how decisions actually get made
-              how people navigate constraints and where systems quietly fall short.
-              I tend to notice the in between moments when information doesn’t travel
-              cleanly when ownership feels fuzzy or when effort is high but impact
-              stays low. That’s where my thinking naturally goes not to surface level
-              fixes but to the patterns underneath that shape outcomes.
+              I’m someone who pays close attention to how things really work not how they’re supposed to work on paper but how decisions actually get made how people navigate constraints and where systems quietly fall short. I tend to notice the in between moments when information doesn’t travel cleanly when ownership feels fuzzy or when effort is high but impact stays low. That’s where my thinking naturally goes not to surface level fixes but to the patterns underneath that shape outcomes.
             </p>
 
             <p className="text-gray-800 text-base md:text-lg leading-relaxed">
-              What I bring is a way of making those patterns visible and usable. I’m
-              strong at stepping into unclear situations and creating structure that
-              helps people move forward with confidence clearer framing sharper
-              priorities and better signals about what really matters. I don’t rely
-              only on logic or only on instinct I work at the intersection of both
-              using disciplined thinking while staying grounded in real world
-              context. My goal is always the same help teams make better decisions
-              earlier and with less friction because that’s where meaningful progress
-              actually comes from.
+              What I bring is a way of making those patterns visible and usable. I’m strong at stepping into unclear situations and creating structure that helps people move forward with confidence clearer framing sharper priorities and better signals about what really matters. I don’t rely only on logic or only on instinct I work at the intersection of both using disciplined thinking while staying grounded in real world context. My goal is always the same help teams make better decisions earlier and with less friction because that’s where meaningful progress actually comes from.
+
+
             </p>
 
           </div>
