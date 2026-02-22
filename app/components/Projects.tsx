@@ -1,167 +1,152 @@
 export default function Projects() {
   const projects = [
     {
-      title: "Project 1 — Forest Fire Prediction System",
+      title: "Forest Fire Prediction System",
       image: "/projects/fire.jpg",
       link: "https://github.com/aparna534/Forest-Fire-Prediction-System",
       content: (
         <>
-          <p><strong>What it does</strong><br />
-            A machine learning system that predicts the probability of forest fire occurrence using weather, fuel moisture, wind, and drought indices. The goal is to give early warnings so authorities can act before fires become uncontrollable.
+          <p>
+            <strong>What it does</strong><br />
+            A machine learning based early warning tool that predicts forest fire probability using environmental and weather data.
           </p>
 
-          <p className="mt-4"><strong>Why I built it</strong><br />
-            In early 2025, the Southern California wildfires displaced thousands of families and caused multiple fatalities. Watching entire neighborhoods evacuate made me realize that most responses happen after damage begins. I wanted to build something that focuses on prevention, not reaction, a system that helps communities prepare before disaster strikes.
+          <p className="mt-6">
+            <strong>How I built it</strong>
           </p>
 
-          <p className="mt-6"><strong>How I planned it (detailed)</strong><br />
-            I approached this like a real world risk product, not just a model.
+          <p className="mt-3">
+            <strong>Data cleaning and feature engineering</strong><br />
+            Processed raw weather datasets including temperature, humidity, wind speed, moisture levels, and drought indices using Pandas and NumPy to create structured model ready features.
           </p>
 
-          <p className="mt-3"><strong>Framed the core decision first</strong><br />
-            Instead of asking “How do I build a fire model?” I asked “What decision should this product improve?”<br />
-            The answer: when authorities should issue early warnings.
+          <p className="mt-3">
+            <strong>Model training and evaluation</strong><br />
+            Trained supervised classification models using Scikit learn and evaluated performance using validation splits to ensure generalization rather than overfitting to historical fire data.
           </p>
 
-          <p className="mt-3"><strong>Defined the user under pressure</strong><br />
-            Designed for emergency teams who don’t have time to interpret dashboards. They need clear risk signals.
+          <p className="mt-3">
+            <strong>Model persistence and deployment</strong><br />
+            Serialized trained models using Joblib and integrated prediction logic into a Flask application for real time inference.
           </p>
 
-          <p className="mt-3"><strong>Converted data into action</strong><br />
-            Mapped every variable such as wind, drought index, and moisture to a single outcome.<br />
-            A probability score that leads to a yes or no alert decision.
-          </p>
-
-          <p className="mt-3"><strong>Built for trust, not complexity</strong><br />
-            Chose a simpler, interpretable model first before exploring advanced ones so stakeholders could understand why a prediction was made.
-          </p>
-
-          <p className="mt-3"><strong>Validated against real events</strong><br />
-            Compared outputs with historical wildfire patterns to ensure the system aligned with real world outcomes, not just statistical accuracy.
+          <p className="mt-3">
+            <strong>Decision focused output design</strong><br />
+            Translated probability outputs into structured risk categories and alert signals to improve interpretability for non technical users.
           </p>
         </>
       ),
     },
 
     {
-      title: "Project 2 — CarbonIQ: Emissions Forecasting Platform",
+      title: "CarbonIQ Emissions Forecasting Platform",
       image: "/projects/carbon.jpg",
       link: "https://github.com/aparna534/carboniq-prototype",
       content: (
         <>
-          <p><strong>What it does</strong><br />
-            A forecasting system that predicts future carbon emissions for countries using historical climate data. It helps policymakers and sustainability teams visualize trends and measure the impact of interventions.
+          <p>
+            <strong>What it does</strong><br />
+            A data analytics platform that visualizes historical CO2 emissions and forecasts future trajectories to support sustainability planning.
           </p>
 
-          <p className="mt-4"><strong>Why I built it</strong><br />
-            Climate conversations are often emotional but lack decision ready data. I wanted to create something that turns complex climate datasets into clear forecasts leaders can actually act on, not just dashboards but direction.
+          <p className="mt-6">
+            <strong>How I built it</strong>
           </p>
 
-          <p className="mt-6"><strong>How I planned it (detailed)</strong><br />
-            I treated this like a decision support product, not a data project.
+          <p className="mt-3">
+            <strong>Data processing and preparation</strong><br />
+            Ingested and cleaned emissions datasets using Pandas and NumPy, structuring time series data for reliable modeling and analysis.
           </p>
 
-          <p className="mt-3"><strong>Started with the user’s confusion, not the dataset</strong><br />
-            Policymakers don’t need more numbers. They need to know “Are we on track or falling behind?”
+          <p className="mt-3">
+            <strong>Forecast modeling</strong><br />
+            Applied regression based models using Scikit learn to estimate emission trajectories and evaluated forecasts against historical patterns.
           </p>
 
-          <p className="mt-3"><strong>Defined the primary insight</strong><br />
-            Reduced hundreds of metrics into one core narrative.<br />
-            Future emissions trajectory.
+          <p className="mt-3">
+            <strong>Visualization and interface</strong><br />
+            Built visualizations using Matplotlib and integrated modeling logic into a Flask application to display historical trends alongside projected changes.
           </p>
 
-          <p className="mt-3"><strong>Separated signal from noise</strong><br />
-            Evaluated which indicators actually influenced long term emissions and removed everything that only added visual clutter.
-          </p>
-
-          <p className="mt-3"><strong>Designed for comparison, not just viewing</strong><br />
-            Built the product so users could compare today versus tomorrow versus scenarios, turning charts into decisions.
-          </p>
-
-          <p className="mt-3"><strong>Planned for scale early</strong><br />
-            Structured the system to work for multiple countries from day one so it wouldn’t stay a one off prototype.
+          <p className="mt-3">
+            <strong>Analytics driven framing</strong><br />
+            Highlighted deviations, growth inflection points, and trajectory shifts to transform raw forecasts into interpretable decision support insights.
           </p>
         </>
       ),
     },
 
     {
-      title: "Project 3 — Multimodal AI Diagnosis and Medical Enquiry Assistant",
+      title: "Medifind Healthcare Patient Insights Assistant",
       image: "/projects/medifind.jpg",
       link: "https://huggingface.co/spaces/theaparna123/medifind",
       content: (
         <>
-          <p><strong>What it does</strong><br />
-            An AI assistant that combines text and image inputs to help users understand symptoms, possible conditions, and next steps, making healthcare guidance more accessible.
+          <p>
+            <strong>What it does</strong><br />
+            A multimodal AI assistant that interprets symptom text and optional image inputs to provide structured health guidance.
           </p>
 
-          <p className="mt-4"><strong>Why I built it</strong><br />
-            In many households, people delay care because they’re unsure whether a symptom is serious. I saw family members hesitate to visit doctors due to uncertainty and cost. This project started from a simple question. What if people could get clarity before fear sets in?
+          <p className="mt-6">
+            <strong>How I built it</strong>
           </p>
 
-          <p className="mt-6"><strong>How I planned it (detailed)</strong><br />
-            This project was designed around human hesitation, not technology.
+          <p className="mt-3">
+            <strong>Multimodal embedding pipeline</strong><br />
+            Integrated CLIP based vision language embeddings, Sentence Transformers, and FAISS for similarity search and semantic retrieval across symptom inputs.
           </p>
 
-          <p className="mt-3"><strong>Started with emotional mapping</strong><br />
-            Identified the real problem as fear before certainty. People hesitate because they don’t know whether they’re overreacting.
+          <p className="mt-3">
+            <strong>AI reasoning layer</strong><br />
+            Leveraged generative AI integration along with Torch and TorchVision pipelines to interpret contextual symptom information beyond rule based matching.
           </p>
 
-          <p className="mt-3"><strong>Defined boundaries of responsibility</strong><br />
-            From the beginning, I decided this product would guide, not diagnose. Clarity over authority.
+          <p className="mt-3">
+            <strong>Structured response design</strong><br />
+            Normalized outputs into condition possibilities, urgency indicators, and recommended next steps to improve clarity and reduce ambiguity.
           </p>
 
-          <p className="mt-3"><strong>Designed trust layers</strong><br />
-            Built explanations into every response so users understand why a suggestion is made.
-          </p>
-
-          <p className="mt-3"><strong>Tested with non technical users</strong><br />
-            Observed how real people phrase symptoms and adjusted flows to match natural language, not medical terminology.
-          </p>
-
-          <p className="mt-3"><strong>Prioritized safety over automation</strong><br />
-            Added guardrails for serious symptoms so the system always escalates rather than speculates.
+          <p className="mt-3">
+            <strong>Safety constraints</strong><br />
+            Implemented escalation logic for high risk symptom categories to ensure guidance remains responsible and non diagnostic.
           </p>
         </>
       ),
     },
 
     {
-      title: "Project 4 — Product Recommendation and Space Optimization System",
+      title: "Product Recommendation and Space Optimization System",
       image: null,
       link: "https://github.com/aparna534/Product-Recommendation-and-Space-Optimization-System-for-Small-Businesses",
       content: (
         <>
-          <p><strong>What it does</strong><br />
-            A data driven system that helps small retail businesses decide what products to stock, where to place them, and how to use limited shelf space for maximum revenue.
+          <p>
+            <strong>What it does</strong><br />
+            A retail analytics system that recommends product stocking and shelf placement decisions using historical sales data.
           </p>
 
-          <p className="mt-4"><strong>Why I built it</strong><br />
-            Small stores lose money not because of bad products but bad placement. Watching local shop owners struggle with inventory decisions inspired me to build something that brings enterprise level analytics to small businesses.
+          <p className="mt-6">
+            <strong>How I built it</strong>
           </p>
 
-          <p className="mt-6"><strong>How I planned it (detailed)</strong><br />
-            I treated this like a revenue product for small businesses, not a tech demo.
+          <p className="mt-3">
+            <strong>Exploratory data analysis</strong><br />
+            Conducted structured EDA using Pandas and NumPy to identify demand patterns, sales velocity trends, and product performance distributions.
           </p>
 
-          <p className="mt-3"><strong>Started on the shop floor, not in code</strong><br />
-            Observed how store owners make placement decisions, mostly by intuition, not data.
+          <p className="mt-3">
+            <strong>Recommendation logic and optimization</strong><br />
+            Developed ranking and allocation logic to prioritize products based on measurable performance metrics and space constraints.
           </p>
 
-          <p className="mt-3"><strong>Defined the business metric first</strong><br />
-            Chose profit per square foot as the north star instead of generic sales numbers.
+          <p className="mt-3">
+            <strong>Application layer</strong><br />
+            Built a Flask based interface enabling dataset upload, analytics execution, and prioritized stocking and placement outputs.
           </p>
 
-          <p className="mt-3"><strong>Mapped decisions, not just data</strong><br />
-            Focused on the real questions owners ask. What should I remove? What deserves prime shelf space?
-          </p>
-
-          <p className="mt-3"><strong>Translated analytics into actions</strong><br />
-            Designed outputs like “Move this product to eye level” instead of “This SKU has a 12 percent uplift probability.”
-          </p>
-
-          <p className="mt-3"><strong>Built for adoption, not perfection</strong><br />
-            Prioritized simplicity so even non technical owners could act immediately.
+          <p className="mt-3">
+            <strong>Business aligned outputs</strong><br />
+            Structured recommendations around profit contribution and performance visibility rather than abstract model scores.
           </p>
         </>
       ),
@@ -170,41 +155,34 @@ export default function Projects() {
 
   return (
     <section id="projects" className="min-h-screen w-full relative font-sans">
-      {/* reduced top padding so content starts higher */}
       <div className="max-w-6xl mx-auto px-6 pt-10 pb-24 text-black">
-
-        {/* CENTERED MAIN HEADING */}
         <h2 className="text-4xl md:text-5xl font-bold tracking-tight mb-12 text-center">
           PROJECTS
         </h2>
 
-        {/* tighter spacing between projects */}
         <div className="space-y-20">
-          {projects.map((p, i) => (
-            <div key={i}>
-              {/* PROJECT TITLE */}
+          {projects.map((project, index) => (
+            <div key={index}>
               <h3 className="text-2xl md:text-3xl font-semibold mb-6 tracking-tight">
-                {p.title}
+                {project.title}
               </h3>
 
-              {/* IMAGE — centered + clean size */}
-              {p.image && (
+              {project.image && (
                 <div className="mb-10 flex justify-center">
                   <img
-                    src={p.image}
-                    alt={p.title}
+                    src={project.image}
+                    alt={project.title}
                     className="w-[520px] max-h-[300px] object-contain rounded-xl border border-black/20 shadow-sm"
                   />
                 </div>
               )}
 
-              {/* CONTENT */}
               <div className="space-y-4 leading-relaxed text-gray-900 max-w-3xl">
-                {p.content}
+                {project.content}
               </div>
 
               <a
-                href={p.link}
+                href={project.link}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block mt-8 px-7 py-3 rounded-full border border-black text-black bg-white hover:bg-black hover:text-white transition"
