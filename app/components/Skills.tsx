@@ -21,23 +21,33 @@ export default function Skills() {
           Data & Analytical Capabilities
         </h2>
 
+        <SkillBar title="Structured Problem Solving" value={85} />
         <SkillBar title="Data Analysis & Insight Generation" value={85} />
-        <SkillBar title="SQL & Structured Querying" value={80} />
-        <SkillBar title="Applied AI & Predictive Modeling" value={80} />
+        <SkillBar title="SQL & Structured Querying" value={78} />
         <SkillBar title="Dashboarding & Metrics Reporting" value={75} />
-        <SkillBar title="Experimentation & KPI Design" value={75} />
+        <SkillBar title="AI-Assisted Research & Analysis" value={78} />
 
 
         {/* ================= PRODUCT & BUSINESS SKILLS ================= */}
         <h2 className="text-2xl font-bold mt-16 mb-6 text-gray-900">
-          Product & Business Thinking
+          Business & Operations 
         </h2>
 
-        <SkillBar title="Problem Framing & Structured Thinking" value={85} />
-        <SkillBar title="Product Strategy & Prioritization" value={75} />
-        <SkillBar title="Requirements Definition & PRD Writing" value={70} />
-        <SkillBar title="User & Market Insight Synthesis" value={72} />
-        <SkillBar title="Stakeholder Communication & Alignment" value={75} />
+        <SkillBar title="Process Analysis & Workflow Improvement" value={85} />
+        <SkillBar title="KPI Design & Performance Tracking" value={80} />
+        <SkillBar title="Decision Framing & Prioritization" value={72} />
+        <SkillBar title="Cross-Functional Coordination" value={80} />
+        <SkillBar title="Operational Problem Diagnosis" value={84} />
+
+        <h2 className="text-2xl font-bold mt-16 mb-6 text-gray-900">
+          Communication & Execution
+        </h2>
+
+        <SkillBar title="Executive Summarization" value={84} />
+        <SkillBar title="Stakeholder Communication" value={82} />
+        <SkillBar title="Research Synthesis" value={85} />
+        <SkillBar title="Presentation & Storylining" value={90} />
+        <SkillBar title="Project Ownership & Execution" value={80} />
 
         {/* developing skill */}
         <SkillBar

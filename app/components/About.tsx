@@ -10,7 +10,6 @@ export default function About() {
     >
       <div className="w-full max-w-7xl px-8 grid grid-cols-1 md:grid-cols-[1.3fr_0.7fr] gap-8 items-center">
 
-
         {/* LEFT — TEXT */}
         <div>
 
@@ -20,22 +19,22 @@ export default function About() {
 
           {/* TAGLINE */}
           <h1 className="text-4xl md:text-5xl font-bold text-black leading-tight mb-6">
-            Bringing Thoughtful<br />
-            Structure to<br />
-            Real Impact
+            Bringing Thoughtful Structure To Real Impact
           </h1>
 
           {/* TEXT — WIDER FRAME */}
           <div className="max-w-3xl">
 
             <p className="text-gray-800 text-base md:text-lg leading-relaxed mb-5">
-              I’m someone who pays close attention to how things really work not how they’re supposed to work on paper but how decisions actually get made how people navigate constraints and where systems quietly fall short. I tend to notice the in between moments when information doesn’t travel cleanly when ownership feels fuzzy or when effort is high but impact stays low. That’s where my thinking naturally goes not to surface level fixes but to the patterns underneath that shape outcomes.
+              I enjoy turning complex, fragmented problems into clarity. I thrive in environments where information is scattered, ownership is unclear, and critical decisions are being made without clear structure. I naturally take responsibility for understanding the full context, mapping hidden gaps, and creating solutions that actually work in practice.
+            </p>
+
+            <p className="text-gray-800 text-base md:text-lg leading-relaxed mb-5">
+              I approach every challenge with persistence and attention to detail. I ask questions others might skip, validate assumptions rigorously, and test solutions iteratively until they are practical, reliable, and implementable.
             </p>
 
             <p className="text-gray-800 text-base md:text-lg leading-relaxed">
-              What I bring is a way of making those patterns visible and usable. I’m strong at stepping into unclear situations and creating structure that helps people move forward with confidence clearer framing sharper priorities and better signals about what really matters. I don’t rely only on logic or only on instinct I work at the intersection of both using disciplined thinking while staying grounded in real world context. My goal is always the same help teams make better decisions earlier and with less friction because that’s where meaningful progress actually comes from.
-
-
+              I combine analytical rigor, operational insight, and disciplined execution. I communicate findings clearly, bridge gaps between technical and non-technical stakeholders, and deliver actionable recommendations. I work best in teams that value curiosity, ownership, and structured thinking, and my goal is to transform ambiguity into clear, impactful decisions.
             </p>
 
           </div>
@@ -43,7 +42,6 @@ export default function About() {
 
         {/* RIGHT — IMAGE (PUSHED RIGHT) */}
         <div className="flex justify-end -mt-12">
-
           <div className="rounded-2xl overflow-hidden shadow-lg">
             <Image
               src="/me.jpg"
